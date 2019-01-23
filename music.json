@@ -1,0 +1,48 @@
+[{
+  "src": "./music/Dat $Tick.mp3",
+  "title": "Dat $Tick",
+  "author": "Rich Brian",
+  "img": "./img/Dat $Tick.jpg"
+},
+{
+  "src": "./music/Delicate.mp3",
+  "title": "Delicate",
+  "author": "Taylor Swift",
+  "img": "./img/Delicate.jpg"
+},
+{
+  "src": "./music/Perfect.mp3",
+  "title": "Perfect",
+  "author": "Ed Sheeran",
+  "img": "./img/Perfect.jpg"
+},
+{
+  "src": "./music/成全.mp3",
+  "title": "成全",
+  "author": "林宥嘉",
+  "img": "./img/成全.jpg"
+},
+{
+  "src": "./music/说谎.mp3",
+  "title": "说谎",
+  "author": "林宥嘉",
+  "img": "./img/说谎.jpg"
+},
+{
+  "src": "./music/心酸.mp3",
+  "title": "心酸",
+  "author": "林宥嘉",
+  "img": "./img/心酸.jpg"
+},
+{
+  "src": "./music/天份.mp3",
+  "title": "天份",
+  "author": "薛之谦",
+  "img": "./img/天份.jpg"
+},
+{
+  "src": "./music/像风一样.mp3",
+  "title": "像风一样",
+  "author": "薛之谦",
+  "img": "./img/像风一样.jpg"
+}]

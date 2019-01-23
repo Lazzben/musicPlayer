@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>musicPlayer</title>
+  <link rel="stylesheet" href="css/iconfont.css">
+  <link rel="stylesheet" href="css/main.css">
+  <style>
+    body {
+      background: #ccc;
+    }
+    .playlist{
+      list-style: none;
+    }
+    .playlist>li{
+      position: relative;
+      padding: 4px 10px;
+      border: 1px solid rgba(255, 255, 255, 0.8);
+      border-top: none;
+      overflow: hidden;
+      cursor: pointer;
+    }
+    .playlist>li:hover {
+      background-color: rgba(255,255, 255,0.5);
+    }
+    .click {
+      background-color: rgba(255,255, 255,0.5);
+    }
+    .image {
+      height: 90px;
+      width: 120px;
+      margin-top: 10px;
+      margin-right: 40px;
+      float: right;
+    }
+    img{
+      height: 100%;
+      width: 100%;
+    }
+    .playlist {
+      background: pink;
+    }
+  </style>
+</head>
+<body>
+  <h1>小黄的音乐播放器</h1>
+  <div class="player">
+    <div class="musicpanel">
+      <div class="image"><img src="" alt=""></div>
+      <div class="music">
+        <div class="intro">
+          <div class="title">song</div>
+          <class class="author">ben</class>
+        </div>
+        <div class="control">
+          <span class="back"><span class="iconfont icon-play-prev-"></span></span>
+          <span class="play"><span class="iconfont icon-play-"></span></span>
+          <span class="next"><span class="iconfont icon-play-next-"></span></span>
+        </div>
+      </div>
+      <div class="progress">
+        <div class="bar">
+          <div class="total"></div>
+          <div class="now"></div>
+        </div>
+        <div class="time">0:00</div>
+      </div>
+    </div>
+    <ul class="playlist">
+    </ul>
+  </div>
+  <script src="/js/main.js"></script>
+</body>
+</html>
